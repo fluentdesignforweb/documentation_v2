@@ -27,7 +27,9 @@ class UList extends Component{
                 <p className="title bold">Usage</p>
                 <p>
                   To make an unordered List, just add an "ul" tag and "li" tag to add items.
-                </p>
+                </p><br/>
+
+                <p className="bold">Simple Unordered List</p>
                 <div className="page_container outline">
                   <ul>
                     <li>Item 1</li>
@@ -48,6 +50,58 @@ class UList extends Component{
                         &nbsp;&nbsp;&lt;li&gt;Item 3&lt;/li&gt;  <br />
                         &nbsp;&nbsp;&lt;li&gt;Item 4&lt;/li&gt;  <br />
                         &nbsp;&nbsp;&lt;li&gt;Item 5&lt;/li&gt;  <br />
+                        &lt;/ul&gt;
+                      </pre>
+                </div><br/>
+
+                <p className="bold">Fluent Unordered List</p>
+                <div className="page_container outline">
+                  <ul className="u_list">
+                    <li className="l_item">Item 1</li>
+                    <li className="l_item">Item 2</li>
+                    <li className="l_item">Item 3</li>
+                    <li className="l_item">Item 4</li>
+                    <li className="l_item">Item 5</li>
+                  </ul>
+                </div>
+                <p>
+                  The language-markup to get the above output
+                </p>
+                <div className="code_content enabled page_container">
+                      <pre className="codeblock_text">
+                        &lt;ul class="u_list"&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 1&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 2&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 3&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 4&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 5&lt;/li&gt;  <br />
+                        &lt;/ul&gt;
+                      </pre>
+                </div><br/>
+
+                <p className="bold">Fluent Unordered List with Header</p>
+                <div className="page_container outline">
+                  <ul className="u_list">
+                    <li className="l_header">List Header</li>
+                    <li className="l_item">Item 1</li>
+                    <li className="l_item">Item 2</li>
+                    <li className="l_item">Item 3</li>
+                    <li className="l_item">Item 4</li>
+                    <li className="l_item">Item 5</li>
+                  </ul>
+                </div>
+                <p>
+                  The language-markup to get the above output
+                </p>
+                <div className="code_content enabled page_container">
+                      <pre className="codeblock_text">
+                        &lt;ul class="u_list"&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_header"&gt;List Header&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 1&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 2&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 3&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 4&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 5&lt;/li&gt;  <br />
                         &lt;/ul&gt;
                       </pre>
                 </div>

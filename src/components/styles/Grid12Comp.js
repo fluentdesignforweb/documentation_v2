@@ -63,21 +63,26 @@ class Grid12 extends Component{
                   <div className="column large1 medium1 small1 primary_inverted ta_center democol">1</div>
                   <div className="column large1 medium1 small1 primary_inverted ta_center democol">1</div>
 
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
-                  <div className="column large2 medium2 small2 primary_inverted ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
+                  <div className="column large2 medium2 small2 primary_green ta_center democol">2</div>
 
-                  <div className="column large4 medium4 small4 primary_inverted ta_center democol">4</div>
-                  <div className="column large4 medium4 small4 primary_inverted ta_center democol">4</div>
-                  <div className="column large4 medium4 small4 primary_inverted ta_center democol">4</div>
+                  <div className="column large3 medium3 small3 primary_inverted ta_center democol">3</div>
+                  <div className="column large3 medium3 small3 primary_inverted ta_center democol">3</div>
+                  <div className="column large3 medium3 small3 primary_inverted ta_center democol">3</div>
+                  <div className="column large3 medium3 small3 primary_inverted ta_center democol">3</div>
+
+                  <div className="column large4 medium4 small4 primary_green ta_center democol">4</div>
+                  <div className="column large4 medium4 small4 primary_green ta_center democol">4</div>
+                  <div className="column large4 medium4 small4 primary_green ta_center democol">4</div>
 
                   <div className="column large6 medium6 small6 primary_inverted ta_center democol">6</div>
                   <div className="column large6 medium6 small6 primary_inverted ta_center democol">6</div>
 
-                  <div className="column large12 medium12 small12 primary_inverted ta_center democol">12</div>
+                  <div className="column large12 medium12 small12 primary_green ta_center democol">12</div>
                 </div>
             </div><br /><br />
 

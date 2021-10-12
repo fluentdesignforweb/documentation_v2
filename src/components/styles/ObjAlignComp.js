@@ -20,15 +20,11 @@ class ObjAlign extends Component{
                 <p>
                   Aligning Elements Horizontally using Fluent Design for Web is as easy as it gets, just calling horizontal align classes can align the elements.
                 </p>
-                <div className="page_container outline">
-                  <div className="column large6 medium6 small6 left outline dlevel2">
+
+                <p className="bold">Left Align</p>
+                <div className="page_container outline"><br />
+                  <div className="column large6 medium8 small10 left outline dlevel2">
                     Elements can be left aligned by adding class="left"
-                  </div><br /><br /><br /><br />
-                  <div className="column large6 medium6 small6 right outline dlevel2">
-                    Elements can be left aligned by adding class="right"
-                  </div><br /><br /><br /><br />
-                  <div className="column large6 medium6 small6 center outline dlevel2">
-                    Elements can be left aligned by adding class="center"
                   </div><br />
                 </div>
                 <p>
@@ -37,10 +33,39 @@ class ObjAlign extends Component{
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
                           &lt;div class="column large6 medium6 small6 left outline dlevel2"&gt;Elements can be left aligned by adding class="left"&lt;/div&gt; <br />
-                          &lt;div class="column large6 medium6 small6 right outline dlevel2"&gt;Elements can be left aligned by adding class="right"&lt;/div&gt; <br />
-                          &lt;div class="column large6 medium6 small6 center outline dlevel2"&gt;Elements can be left aligned by adding class="center"&lt;/div&gt; <br />
                         </pre>
-                  </div>
+                </div>
+
+                <p className="bold">Right Align</p>
+                <div className="page_container outline"><br />
+                  <div className="column large6 medium8 small10 right outline dlevel2">
+                    Elements can be left aligned by adding class="right"
+                  </div><br />
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;div class="column large6 medium6 small6 right outline dlevel2"&gt;Elements can be left aligned by adding class="left"&lt;/div&gt; <br />
+                        </pre>
+                </div>
+
+                <p className="bold">Center Align</p>
+                <div className="page_container outline"><br />
+                  <div className="column large6 medium8 small10 center outline dlevel2">
+                    Elements can be left aligned by adding class="center"
+                  </div><br />
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;div class="column large6 medium6 small6 center outline dlevel2"&gt;Elements can be left aligned by adding class="left"&lt;/div&gt; <br />
+                        </pre>
+                </div>
+
             </div><br /><br />
 
         </main>

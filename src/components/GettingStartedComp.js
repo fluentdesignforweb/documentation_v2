@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import '../fluent.css';
+import './fluent.css';
 import { NavLink } from "react-router-dom";
 
 class GettingStarted extends Component{
@@ -11,7 +11,7 @@ class GettingStarted extends Component{
             <br />
             <h6>Get Started</h6>
             <br />
-            <div className="page_container primary_white zi2">
+            <div className="page_container primary_white dlevel2">
                 <p className="title bold">Overview</p>
                 <p>
                     Think for a moment that, what would happen if you combine the Metro UI, with Material Design, the result is Fluent Design also called Fabric UI.
@@ -25,7 +25,7 @@ class GettingStarted extends Component{
                 </p>
             </div>
             <br /><br />
-            <div className="page_container primary_white zi2">
+            <div className="page_container primary_white dlevel2">
                 <p className="title bold">Add Fluent Design in your Project</p>
                 <p>
                     Fluent Design for Web is easy to use, and even easier to include it in your project and use it. To use Fluent Design for Web in your project 
@@ -51,7 +51,7 @@ class GettingStarted extends Component{
                 </p>
             </div>
             <br /><br />
-            <div className="page_container primary_white zi2">
+            <div className="page_container primary_white dlevel2">
                 <p className="title bold">Use Fluent Design Classes in your project</p>
                 <p>
                     Best part about including Fluent Design for Web in your project is, it styles most of the common elements like Headings, Paragraphs, Links, etc on its own 

@@ -78,10 +78,9 @@ class Icons extends Component{
                 </p>
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
-                          &lt;i className="ms-Icon ms-Icon--12PointStar"&gt;&lt;/i&gt;<br />
-                          &lt;i className="ms-Icon ms-Icon--GlobalNavButton"&gt;&lt;/i&gt;<br />
-                          &lt;i className="ms-Icon ms-Icon--Home"&gt;&lt;/i&gt;<br />
-                          &lt;i className="ms-Icon ms-Icon--FolderHorizontal"&gt;&lt;/i&gt;
+                          &lt;i className="ms-Icon ms-Icon--12PointStar icon-small"&gt;&lt;/i&gt;<br />
+                          &lt;i className="ms-Icon ms-Icon--12PointStar icon-medium"&gt;&lt;/i&gt;<br />
+                          &lt;i className="ms-Icon ms-Icon--12PointStar icon-large"&gt;&lt;/i&gt;<br />
                         </pre>
                 </div>
             </div><br /><br />

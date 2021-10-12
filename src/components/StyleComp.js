@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import '../fluent.css';
+import './fluent.css';
 import { NavLink } from "react-router-dom";
 
 class Styles extends Component{

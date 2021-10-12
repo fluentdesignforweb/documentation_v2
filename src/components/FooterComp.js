@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import '../fluent.css';
+import './fluent.css';
 
 class Footer extends Component{
   

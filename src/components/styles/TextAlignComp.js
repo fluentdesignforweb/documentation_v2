@@ -20,18 +20,12 @@ class TextAlign extends Component{
                 <p>
                   Aligning text using Fluent Design for Web is as easy as it gets, just calling text align classes can align the text.
                 </p>
+
+                <p className="bold">Left Aligned Text</p>
                 <div className="page_container outline">
                   <p className="ta_left">
-                    Text can be left aligned by adding class="ta_left" to any text.<br /><br />
-                  </p>
-                  <p className="ta_right">
-                    Text can be right aligned by adding class="ta_right" to any text.<br /><br />
-                  </p>
-                  <p className="ta_center">
-                    Text can be center aligned by adding class="ta_center" to any text.<br /><br />
-                  </p>
-                  <p className="ta_justify">
-                    Text can be justified aligned by adding class="ta_justify" to any text.
+                  pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur
+                  <br />
                   </p>
                 </div>
                 <p>
@@ -40,11 +34,59 @@ class TextAlign extends Component{
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
                           &lt;p class="ta_left"&gt;Text can be left aligned by adding class="ta_left" to any text.&lt;/p&gt; <br />
-                          &lt;p class="ta_right"&gt;Text can be right aligned by adding class="ta_right" to any text.&lt;/p&gt; <br />
-                          &lt;p class="ta_center"&gt;Text can be center aligned by adding class="ta_center" to any text.&lt;/p&gt; <br />
-                          &lt;p class="ta_justify"&gt;Text can be justified aligned by adding class="ta_justify" to any text.&lt;/p&gt; <br />
                         </pre>
-                  </div>
+                </div>
+
+
+                <p className="bold">Right Aligned Text</p>
+                <div className="page_container outline">
+                  <p className="ta_right">
+                  tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus                  <br />
+                  </p>
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;p class="ta_right"&gt;Text can be left aligned by adding class="ta_right" to any text.&lt;/p&gt; <br />
+                        </pre>
+                </div>
+
+
+                <p className="bold">Center Aligned Text</p>
+                <div className="page_container outline">
+                  <p className="ta_center">
+                  pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur
+                  <br />
+                  </p>
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;p class="ta_center"&gt;Text can be left aligned by adding class="ta_center" to any text.&lt;/p&gt; <br />
+                        </pre>
+                </div>
+
+
+                <p className="bold">Justify Aligned Text</p>
+                <div className="page_container outline">
+                  <p className="ta_justify">
+                  eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravidaeu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida
+                  <br />
+                  </p>
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;p class="ta_justify"&gt;Text can be left aligned by adding class="ta_justify" to any text.&lt;/p&gt; <br />
+                        </pre>
+                </div>
+
             </div><br /><br />
 
         </main><br /><br /><br />

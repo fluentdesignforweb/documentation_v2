@@ -27,7 +27,9 @@ class OList extends Component{
                 <p className="title bold">Usage</p>
                 <p>
                   To make an Ordered List, just add an "ol" tag and "li" tag to add items.
-                </p>
+                </p><br/>
+
+                <p className="bold">Simple Ordered List</p>
                 <div className="page_container outline">
                   <ol>
                     <li>Item 1</li>
@@ -50,7 +52,32 @@ class OList extends Component{
                         &nbsp;&nbsp;&lt;li&gt;Item 5&lt;/li&gt;  <br />
                         &lt;/ol&gt;
                       </pre>
+              </div><br/>
+
+                <p className="bold">Fluent Ordered List</p>
+                <div className="page_container outline">
+                  <ol className="o_list">
+                    <li className="l_item">Item 1</li>
+                    <li className="l_item">Item 2</li>
+                    <li className="l_item">Item 3</li>
+                    <li className="l_item">Item 4</li>
+                    <li className="l_item">Item 5</li>
+                  </ol>
                 </div>
+                <p>
+                  The language-markup to get the above output
+                </p>
+                <div className="code_content enabled page_container">
+                      <pre className="codeblock_text">
+                        &lt;ol class="o_list&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 1&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 2&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 3&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 4&lt;/li&gt;  <br />
+                        &nbsp;&nbsp;&lt;li class="l_item"&gt;Item 5&lt;/li&gt;  <br />
+                        &lt;/ol&gt;
+                      </pre>
+              </div>
             </div><br /><br />
 
             <div className="page_container primary_white zi2">

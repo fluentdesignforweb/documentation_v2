@@ -60,9 +60,9 @@ class Grid9 extends Component{
                   <div className="column lg-1 md-1 sm-1 primary_inverted ta_center democol">1</div>
                   <div className="column lg-1 md-1 sm-1 primary_inverted ta_center democol">1</div>
 
-                  <div className="column lg-3 md-3 sm-3 primary_inverted ta_center democol">3</div>
-                  <div className="column lg-3 md-3 sm-3 primary_inverted ta_center democol">3</div>
-                  <div className="column lg-3 md-3 sm-3 primary_inverted ta_center democol">3</div>
+                  <div className="column lg-3 md-3 sm-3 primary_blue ta_center democol">3</div>
+                  <div className="column lg-3 md-3 sm-3 primary_blue ta_center democol">3</div>
+                  <div className="column lg-3 md-3 sm-3 primary_blue ta_center democol">3</div>
 
                   <div className="column lg-9 md-9 sm-9 primary_inverted ta_center democol">9</div>
                 </div>

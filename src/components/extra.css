@@ -12,7 +12,7 @@
     border: none;
 }
 
-.democol{margin: 0.5px}
+.democol{border: 0.5px  white solid}
 
 .frame{
     height: 800px;

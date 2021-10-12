@@ -27,7 +27,7 @@ class Typography extends Component{
                   <h3>Heading h3</h3>
                   <h4>Heading h4</h4>
                   <h5>Heading h5</h5>
-                  <h6>Heading h1</h6>
+                  <h6>Heading h6</h6>
                 </div>
                 <p>
                   The language-markup to get the above output is
@@ -75,17 +75,32 @@ class Typography extends Component{
                   Adding links is as easy as it gets, just add anchor(a) tag and add href attribute. Links are styled by default with a basic 
                   animation when touched or hovered over.
                 </p>
+
+                <p className="bold">Simple Link</p>
                 <div className="page_container outline">
-                  <NavLink to="#">This is a Link</NavLink>
+                  <NavLink to="#">This is a simple Link</NavLink>
                 </div>
                 <p>
                   The language-markup to get the above output is
                 </p>
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
-                          &lt;a href="#"&gt;This is a link&lt;/a&gt; <br />
+                          &lt;a href="#"&gt;This is a simple link&lt;/a&gt; <br />
                         </pre>
-                  </div>
+                </div>
+
+                <p className="bold">Animated Link</p>
+                <div className="page_container outline">
+                  <NavLink to="#" className="link">This is an animated Link</NavLink>
+                </div>
+                <p>
+                  The language-markup to get the above output is
+                </p>
+                <div className="code_content enabled page_container">
+                        <pre className="codeblock_text">
+                          &lt;a href="#" class="link"&gt;This is an animated link&lt;/a&gt; <br />
+                        </pre>
+                </div>
             </div>
         </main>
         <Footer />

@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import '../fluent.css';
+import './fluent.css';
 
 import ControlsSidenav from "./ControlsSidenavComp";
 import Controls from "./ControlComp";
