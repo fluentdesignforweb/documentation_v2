@@ -48,7 +48,7 @@ class Button extends Component{
                 </p>
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
-    &lt;button class="dlevel2"&gt;Standard Button&lt;/button&gt;<br />
+    &lt;button&gt;Standard Button&lt;/button&gt;<br />
                         </pre>
                 </div>
 
@@ -57,10 +57,10 @@ class Button extends Component{
             <div className="page_container primary_white zi2">
                 <p className="title bold">Themed Button</p>
                 <div className="page_container outline">
-                  <button className="primary_white dlevel2">Primary White</button>&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button className="primary_blue dlevel2">Primary Blue</button>&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button className="primary_green dlevel2">Primary Green</button>&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button className="primary_red dlevel2">Primary Red</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <button className="primary_white dlevel2">Primary White</button>&nbsp;&nbsp;&nbsp;
+                  <button className="primary_blue dlevel2">Primary Blue</button>&nbsp;&nbsp;&nbsp;
+                  <button className="primary_green dlevel2">Primary Green</button>&nbsp;&nbsp;&nbsp;
+                  <button className="primary_red dlevel2">Primary Red</button>&nbsp;&nbsp;&nbsp;
                   <button className="primary_inverted dlevel2">Primary Inverted</button>
                 </div>
                 <p>
@@ -115,6 +115,20 @@ class Button extends Component{
                 </div>
             </div><br /><br />
 
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
+}
+
+
+export default Button;
+
+
+/*
+
             <div className="page_container primary_white zi2">
                 <p className="title bold">Pivot Button</p>
                 <div className="page_container outline">
@@ -159,13 +173,5 @@ class Button extends Component{
                 </div>
 
             </div><br /><br />
-        </main>
-        <Footer />
-      </div>
-    );
-  }
 
-}
-
-
-export default Button;
+*/

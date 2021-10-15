@@ -72,18 +72,18 @@ class Window extends Component{
                 <p className="title bold">Extending on Usage</p>
                 <p>
                   Without adding additional JavaScript anyone can make 5 Windows per page. The only thing to follow is keep id for modal as 
-                  mod1, mod2, mod3, mod4, mod5 and call [openmod1()~openmod5] and [openmod1()~openmod5] functions respectively.
+                  mod1, mod2, mod3, mod4, mod5 and call [openmod1()~openmod5] and [closemod1()~closemod5] functions respectively.
                 </p>
             </div><br /><br />
         </main>
         <Footer />
         <div class="modal_container" id="mod1">
-          <div class="modal_content zi3">
-              <div class="dialogue_pane large12">
-                  <div class="modal_title left">This is the Window Title</div>
-                  <button class="primary_red right ta_center mod_close_btn" onClick={HideWindow}>X</button>
+          <div class="modal_content dlevel2">
+              <div class="modal_pane large12">
+                  <span class="modal_title">This is the Window Title</span>
+                  <button class="mod_close_btn" onClick={HideWindow}>X</button>
               </div>
-              <div class="page_container">
+              <div class="modal_data">
                   <h2>This Is Modal Content</h2>
               </div>
           </div>

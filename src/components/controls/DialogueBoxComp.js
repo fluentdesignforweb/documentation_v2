@@ -27,9 +27,8 @@ class DialogueBox extends Component{
                 <p className="title bold">Overview</p>
                 <p>
                   Dialogue Boxes are temporary, Dialogue Box UI overlay that generally provide contextual app information or require user confirmation/input, 
-                  or can be used to advertise new app features. In some cases, Dialogue Boxes block interactions with the web page or application until 
-                  being explicitly dismissed. They can be used for lightweight creation or edit tasks and simple management tasks, or for hosting 
-                  heavier temporary content.                
+                  or can be used to advertise new app features. Dialogue Boxes are generally used for confirming an action taken by the user. 
+                  They can be used for lightweight creation or edit tasks and simple management tasks.                
                 </p>
             </div><br /><br />
 
@@ -68,16 +67,21 @@ class DialogueBox extends Component{
                 <p className="title bold">Extending on Usage</p>
                 <p>
                   Without adding additional JavaScript anyone can make 5 Dialogue Boxes per page. The only thing to follow is keep id for dialogue box as 
-                  dialog1, dialog2, dialog3, dialog4, dialog5 and call [opendialog1()~opendialog5] and [opendialog1()~opendialog5] functions respectively.
+                  dialog1, dialog2, dialog3, dialog4, dialog5 and call [opendialog1()~opendialog5] and [closedialog1()~closedialog5] functions respectively.
                 </p>
             </div><br /><br />
         </main>
         <Footer />
-        <div class="dialogue_box" id="dialog1">
-          <div class="dialogue_pane large12">
-              <button class="primary_red right ta_center mod_close_btn" onClick={HideDBox} >X</button>
+        <div className="dialogue_container" id="dialog1">
+          <div class="dialogue_box">
+            <div class="dialogue_pane large12">
+              <span>Dialogue Title</span>
+              <button class="mod_close_btn" onClick={HideDBox} >X</button>
+            </div>
+            <div class="dialogue_content large12">
+              <p>This Is A Dialogue Box</p>
+            </div>
           </div>
-          <div class="dialogue_content large12">This Is A Dialogue Box</div>
         </div>
 
       </div>

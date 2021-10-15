@@ -50,7 +50,7 @@ footer{position: relative; width: 100%;}
 .column{display: inline-block; vertical-align: top; margin: 0px; border: none; outline: 0; padding: 8px 16px;}
 .center{display: block; margin: auto;}
 .left{display: block; margin-left: 0px;}
-.right{display: block; margin-left: auto;}
+.right{display: block; float: right;}
 
 
 /*For Large Screens*/
@@ -317,7 +317,7 @@ nav .nav_content{
 .dlevel4:hover{box-shadow: 0px 8px 16px 0px #5a5a5a; transition: 200ms;}
 
 .dlevel0, .dlevel1, .dlevel2, .dlevel3, .dlevel4 {
-    border-radius: 12px;
+    border-radius: 0.3rem;
 }
 
 
@@ -372,13 +372,13 @@ a{color:#007daf; position: relative; z-index: 0; text-decoration: none; font-wei
 /*Buttons*/
 
 button,.button{
-    background: #fafafa;
+    background: #fcfcfc;
     border: none;
-    padding: 12px;
-    border: none;
+    padding: 10px 20px;
     text-align: center;
-    font-weight: 600;
-    margin: 4px;
+    font-weight: 500;
+    margin: 6px 0px;
+    border-radius: 0.3rem;
 }
 .box{border: 0.5px solid #1e1e1e99;}
 button:hover,.button:hover{
@@ -388,9 +388,6 @@ button:focus,.button:focus{
     opacity: 0.8;
     filter: saturate(160%);
 }
-button.small,.button.small{min-width: 100px; height: 42px; font-size: 16px;}
-button.regular,.button.regular{min-width: 150px; height: 54px; font-size: 18px;}
-button.large,.button.large{min-width: 200px; height: 66px; font-size: 20px;}
 .icon,.button.icon{max-height:40px; max-width: 40px; border: 1px solid rgba(0, 0, 0, 0.0); margin-left: 1%;}
 .icon:hover,.button.icon:hover{border: 1px solid rgba(0, 0, 0, 0.4);}
 .circular{border-radius: 100%;}
@@ -439,13 +436,13 @@ input[type=date],input[type=datetime-local],input[type=month],input[type=search]
     width: 360px;
     max-width: 80%;
     padding: 8px;
-    border: 1px solid #acacacaa;
+    border: 2px solid #acacacaa;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     font-size: 18px;
     transition: 200ms;
-    border-radius: 8px;
+    border-radius: 0.3rem;
 }
 
 input[type=text]:hover,input[type=password]:hover,input[type=tel]:hover,input[type=number]:hover,
@@ -467,6 +464,7 @@ input.btm_brdr, input.btm_brdr:hover, input.btm_brdr:focus{
 .search_box{
     display:block;
     width: 360px;
+    max-width: 80%;
     border: 1.5px solid rgba(0, 0, 0, 0.4); 
     padding: 0.5%;
     transition: 200ms;
@@ -482,6 +480,7 @@ input.btm_brdr, input.btm_brdr:hover, input.btm_brdr:focus{
 select{
     text-align: left;
     width: 360px;
+    max-width: 80%;
     padding: 1.5%;
     border: 1.5px solid rgba(0, 0, 0, 0.4);
     background: #FFF;
@@ -522,7 +521,7 @@ input[type=radio].drop_opt:checked{background: #FFF; box-shadow: none;}
 .dropdown_container{width: 200px;}
 .dropdown_btn{
     width: 200px;
-    padding: 15px;
+    padding: 8px 20px;
     font-size: 16px;
     font-weight: 600;
     border: 0.5px solid #1e1e1e99;
@@ -539,7 +538,7 @@ input[type=radio].drop_opt:checked{background: #FFF; box-shadow: none;}
     font-size: 0px;
     opacity: 0;
     margin-top: -4px;
-    margin-left: 4px;
+    margin-left: 0px;
 }
 .dropdown_items a{
     display: block;
@@ -788,11 +787,31 @@ th:hover{opacity: 0.8;}
 /*Surfaces*/
 
 .mod_close_btn{
-    padding: 10px; padding-left: 20px; padding-right: 20px;
+    padding: 12px 24px;
+    float: right;
+    position: relative;
+    left: 1px;
+    border-radius: 0 0.3rem 0 0;
 }
-.modal_title{
-    font-size: 20px;
-    margin: 4px;
+.mod_close_btn:hover{
+    background-color: #DE1738;
+    color: #fcfcfc;
+}
+.modal_pane{
+    height: 7%;
+    cursor: move;
+    width: 100%;
+    color: #1e1e1e;
+    background: #ffffff;
+    border-bottom: 1px solid #acacacaa;
+}
+.modal_pane button{
+    margin: 0px;
+}
+.modal_pane span{
+    position: relative;
+    top: 10px;
+    left: 12px;
 }
 .modal_container{
         
@@ -813,12 +832,22 @@ th:hover{opacity: 0.8;}
 .modal_content{
     display: block;
     margin: auto;
-    width: 75%;
-    height: 80%;
+    width: 960px;
+    max-width: 94%;
+    height: 640px;
+    min-height: 86%;
     background: #FFF;
     overflow-y: auto;
-    margin-top: 5%;
+    margin-top: 5vh;
     scrollbar-width: 0px;
+    border-radius: 0.4rem;
+}
+.modal_data{
+    padding: 0px 12px;
+    background: #FFF;
+    color: #1e1e1e;
+    width: 100%;
+    height: 80%;
 }
 .modal_container::-webkit-scrollbar{display: none;}
 .sidepanel_container{
@@ -863,36 +892,56 @@ th:hover{opacity: 0.8;}
     margin-top: -3.5vh;
     margin-left: -10px;
     background: #fcfcfc;
+    border-radius: 0.3rem;
 }
 .tooltip_container:hover .tooltip_info{opacity: 1; width: auto; height: auto; font-size: 12px; padding: 8px; overflow-y: auto;}
 
-.dialogue_box{
-    z-index: 12;
-    position: fixed;
-    top:40%;
-    left: 40%;
-    min-width: 350px;
-    min-height: 150px;
-    border:2px solid rgba(125, 125, 125, 0.9);
+.dialogue_container{
+    background-image: 
+        radial-gradient(circle at top left, transparent, #eaeaeaaa),
+        radial-gradient(circle at bottom left, transparent, #e5e5e5aa)
+    ;
+    backdrop-filter: blur(10px);
     display: none;
-    box-shadow:  6px 0 12px 0 rgba(0, 0, 0, 0.4), 0 4px 12px 0 rgba(0, 0, 0, 0.38);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.dialogue_box{
+    width: 480px;
+    max-width: 80%;
+    height: 220px;
+    max-height: fit-content;
+    border:2px solid rgba(125, 125, 125, 0.9);
+    border-radius: 0.4rem;
+    margin: 36vh auto;
 }
 .dialogue_pane{
-    height: 38px;
-    background: rgba(125, 125, 125, 0.9);
+    height: 20%;
     cursor: move;
     width: 100%;
-    color: #fcfcfc;
+    color: #1e1e1e;
+    background: #ffffff;
+    border-bottom: 1px solid #acacacaa;
 }
 .dialogue_pane button{
     margin: 0px;
 }
+.dialogue_pane span{
+    position: relative;
+    top: 8px;
+    left: 12px;
+}
 .dialogue_content{
-    padding: 5px;
+    padding: 0px 12px;
     background: #FFF;
     color: #1e1e1e;
-    min-height: 150px;
-    min-width: 350px;
+    width: 100%;
+    height: 80%;
+    margin-top: -18px;
 }
 /*Overlay*/
 img{width: 100%; height: auto;}
@@ -938,6 +987,7 @@ img{width: 100%; height: auto;}
     min-width: 200px;
     opacity: 0;
     z-index: 11;
+    border-radius: 0.3rem;
 }
 .snackbar_content:hover{opacity: 1;}
 .snackbar_container .snackbar_button:focus ~ .snackbar_content{opacity: 0.9; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);}
