@@ -3,14 +3,6 @@ import '../extra.css';
 import ControlsSidenav from "../ControlsSidenavComp";
 import Footer from "../FooterComp";
 
-
-function ShowPanel(){
-  document.getElementById("side1").style.display=("block");
-}
-function HidePanel(){
-  document.getElementById("side1").style.display=("none");
-}
-
 class SideNav extends Component{
   
   render(){

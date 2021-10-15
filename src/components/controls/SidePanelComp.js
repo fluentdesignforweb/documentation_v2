@@ -80,8 +80,8 @@ class SidePanel extends Component{
         </main>
         <Footer />
         <div class="sidepanel_container" id="side1">
-          <div class="sidepanel_content zi3 right" id="modct1">
-              <button class="primary_red right ta_center mod_close_btn" onClick={HidePanel}>X</button>
+          <div class="sidepanel_content dlevel2 right" id="modct1">
+              <button class="mod_close_btn" onClick={HidePanel}>X</button>
               <br /><br /><br /><br />
               <div class="page_container">
                   <div class="large12 panel_item">Panel Item 1</div>

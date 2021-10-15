@@ -65,7 +65,7 @@ class TextArea extends Component{
                   To make a Textarea Input field which has transparent background add class="transparent" 
                 </p>
                 <div className="outline">
-                  <textarea placeholder="This is a Text Area" className="transparent btm_brdr"></textarea>
+                  <textarea placeholder="This is a Text Area" className="transparent"></textarea>
                 </div>
                 <p>
                   The language-markup to get the above output

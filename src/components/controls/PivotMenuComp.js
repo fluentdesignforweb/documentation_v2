@@ -2,6 +2,7 @@ import React, {Component} from "react"
 import '../extra.css';
 import ControlsSidenav from "../ControlsSidenavComp";
 import Footer from "../FooterComp";
+import { NavLink } from "react-router-dom";
 
 class PivotMenu extends Component{
   
@@ -30,12 +31,12 @@ class PivotMenu extends Component{
                   an active class needs to be added.
                 </p>
                 <div className="outline">
-                  <div className="pivot_menu large12 medium12 small12 primary_red">
-                    <a className="pivot_title">Menu Title</a>
-                    <a className="pivot_button" href="#">Link 1</a>
-                    <a className="pivot_button active" href="#">Link 2</a>
-                    <a className="pivot_button" href="#">Link 3</a>
-                    <a className="pivot_button" href="#">Link 4</a>
+                  <div className="pivot_container primary_red">
+                    <NavLink className="pivot_heading">Menu Title</NavLink>
+                    <NavLink className="pivot_button right" href="#">Link 4</NavLink>
+                    <NavLink className="pivot_button right active" href="#">Link 3</NavLink>
+                    <NavLink className="pivot_button right" href="#">Link 2</NavLink>
+                    <NavLink className="pivot_button right" href="#">Link 1</NavLink>
                   </div>
                 </div>
                 <p>
@@ -43,12 +44,12 @@ class PivotMenu extends Component{
                 </p>
                 <div className="code_content enabled">
                       <pre className="codeblock_text">
-                        &nbsp;&nbsp;&lt;div class="pivot_menu large12 medium12 small12 primary_red"&gt;  <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_title"&gt;Menu Title&lt;/a&gt;  <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button" href="#"&gt;Link 1&lt;/a&gt;  <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button active" href="#"&gt;Link 2&lt;/a&gt;  <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button" href="#"&gt;Link 3&lt;/a&gt;  <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button" href="#"&gt;Link 4&lt;/a&gt;  <br />
+                        &nbsp;&nbsp;&lt;div class="pivot_container primary_red"&gt;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_heading"&gt;Menu Title&lt;/a&gt;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button right" href="#"&gt;Link 1&lt;/a&gt;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button right active" href="#"&gt;Link 2&lt;/a&gt;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button right" href="#"&gt;Link 3&lt;/a&gt;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="pivot_button right" href="#"&gt;Link 4&lt;/a&gt;  <br />
                         &nbsp;&nbsp;&lt;/div&gt;  <br />
                       </pre>
                 </div>

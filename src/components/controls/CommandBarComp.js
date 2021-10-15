@@ -2,6 +2,7 @@ import React, {Component} from "react"
 import '../extra.css';
 import ControlsSidenav from "../ControlsSidenavComp";
 import Footer from "../FooterComp";
+import { NavLink } from "react-router-dom";
 
 class CommandBar extends Component{
   
@@ -31,13 +32,13 @@ class CommandBar extends Component{
                   With current Support with Fluent Design for Web, making Command Bar is relatively easy. It can be used as an alternative to Pivot Menu
                 </p>
                 <div className="outline">
-                  <div class="commandbar_container">
+                  <div class="commandbar_container primary_white">
                     <div className="dropdown_container">
                       <button class="dropdown_btn commandbar_button">Command_1</button>
                       <ul className="dropdown_items dlevel2">  
-                        <a href="#">Item 1</a>  
-                        <a href="#">Item 2</a>  
-                        <a href="#">Item 3</a>  
+                        <NavLink href="#">Item 1</NavLink>  
+                        <NavLink href="#">Item 2</NavLink>  
+                        <NavLink href="#">Item 3</NavLink>  
                       </ul> 
                     </div>
                     <button class="commandbar_button">Command_2</button>
@@ -50,7 +51,7 @@ class CommandBar extends Component{
                 </p>
                 <div className="code_content enabled">
                   <pre className="codeblock_text">
-                    &nbsp;&nbsp;&lt;div class="commandbar_container"&gt;  <br />
+                    &nbsp;&nbsp;&lt;div class="commandbar_container primary_white"&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div className="dropdown_container"&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="dropdown_btn commandbar_button"&gt;Command_1&lt;/button&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul className="dropdown_items dlevel2"&gt;    <br />

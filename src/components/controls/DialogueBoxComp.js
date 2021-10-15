@@ -53,12 +53,15 @@ class DialogueBox extends Component{
                 </p>
                 <div className="code_content enabled page_container">
                         <pre className="codeblock_text">
-&lt;div class="dialogue_box" id="dialog1"&gt; <br />
-&nbsp;&nbsp;&lt;div class="dialogue_pane large12"&gt; <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="primary_red right ta_center mod_close_btn" onclick="closedialog1();" &gt;X&lt;/button&gt; <br />
-&nbsp;&nbsp;&lt;/div&gt; <br />
-&nbsp;&nbsp;&lt;div class="dialogue_content large12"&gt;This Is A Dialogue Box&lt;/div&gt; <br />
-&lt;/div&gt; <br />
+                        &lt;div class="dialogue_container" id="dialog1"&gt; <br />
+                        &nbsp;&lt;div class="dialogue_box" id="dialog1"&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&lt;div class="dialogue_pane large12"&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="dialogue_title"&gt;X&lt;/span&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="mod_close_btn" onclick="closedialog1();" &gt;X&lt;/button&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&lt;/div&gt; <br />
+                        &nbsp;&nbsp;&nbsp;&lt;div class="dialogue_content large12"&gt;This Is A Dialogue Box&lt;/div&gt; <br />
+                        &nbsp;&lt;/div&gt; <br />
+                        &lt;/div&gt; <br />
                         </pre>
                 </div>
             </div><br /><br />

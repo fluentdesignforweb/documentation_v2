@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import '../extra.css';
+import '../fluent.css';
 import ControlsSidenav from "../ControlsSidenavComp";
 import Footer from "../FooterComp";
 
@@ -30,7 +31,7 @@ class Breadcrumbs extends Component{
                   With current Support with Fluent Design for Web, making Breadcrumbs is easy.
                 </p>
                 <div className="outline">
-                  <ul className="breadcrumb_container">
+                  <ul className="breadcrumb_container primary_white">
                     <li className="breadcrumb"><a href="https://fluentdesignforweb.github.io/">Home</a></li>
                     <li className="breadcrumb"><a href="https://fluentdesignforweb.github.io/documentation/">&gt; Documentation</a></li>
                     <li className="breadcrumb"><a href="https://fluentdesignforweb.github.io/documentation#/controls">&gt; Controls</a></li>
@@ -42,7 +43,7 @@ class Breadcrumbs extends Component{
                 </p>
                 <div className="code_content enabled">
                   <pre className="codeblock_text">
-                    &nbsp;&nbsp;&lt;ul class="breadcrumb_container"&gt;  <br />
+                    &nbsp;&nbsp;&lt;ul class="breadcrumb_container primary_white"&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="breadcrumb"&gt;&lt;a href="https://fluentdesignforweb.github.io/"&gt;Home&lt;/a&gt;&lt;/li&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="breadcrumb"&gt;&lt;a href="https://fluentdesignforweb.github.io/documentation/"&gt;&gt; Documentation&lt;/a&gt;&lt;/li&gt;  <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="breadcrumb"&gt;&lt;a href="https://fluentdesignforweb.github.io/documentation#/controls"&gt;&gt; Controls&lt;/a&gt;&lt;/li&gt;  <br />

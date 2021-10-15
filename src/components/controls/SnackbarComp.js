@@ -51,7 +51,7 @@ class Snackbar extends Component{
                         &lt;/div&gt;  <br />  <br />
                         &lt;div className="snackbar_container"&gt;  <br />
                         &nbsp;&nbsp;&lt;button className="snackbar_button small primary_white dlevel2"&gt;Click to open another Snackbar&lt;/button&gt;  <br />
-                        &nbsp;&nbsp;&lt;span className="snackbar_content box"&gt;This is Some More Snackbar Content&lt;/span&gt;  <br />
+                        &nbsp;&nbsp;&lt;span className="snackbar_content primary_inverted"&gt;This is Some More Snackbar Content&lt;/span&gt;  <br />
                         &lt;/div&gt;
                       </pre>
                 </div>

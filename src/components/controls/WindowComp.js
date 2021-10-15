@@ -56,10 +56,11 @@ class Window extends Component{
                         <pre className="codeblock_text">
                           &lt;div class="modal_container" id="mod1"&gt;  <br />
                           &nbsp;&nbsp;&lt;div class="modal_content zi3"&gt;  <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="dialogue_pane large12"&gt;  <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="primary_red right ta_center mod_close_btn" onclick="closemod1();"&gt;X&lt;/button&gt;  <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="modal_pane large12"&gt;  <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="modal_title"&gt;This is Window Title&lt;/span&gt;  <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="mod_close_btn" onclick="closemod1();"&gt;X&lt;/button&gt;  <br />
                           &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;  <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="page_container"&gt;  <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="modal_data"&gt;  <br />
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;This Is Some Content&lt;/h2&gt;  <br />
                           &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;  <br />
                           &nbsp;&nbsp;&lt;/div&gt;  <br />

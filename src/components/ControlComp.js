@@ -39,7 +39,6 @@ class Controls extends Component{
                     <NavLink to="/checkbox">Checkbox</NavLink><br />
                     <NavLink to="/searchbox">Searchbox</NavLink><br />
                     <NavLink to="/select">Select</NavLink><br />
-                    <NavLink to="/adv_select">Advanced Select</NavLink><br />
                 </div>
             </div>
             <br /><br />

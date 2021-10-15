@@ -40,7 +40,7 @@ class ObjAlign extends Component{
                 <div className="page_container outline"><br />
                   <div className="column large6 medium8 small10 right outline dlevel2">
                     Elements can be left aligned by adding class="right"
-                  </div><br />
+                  </div><br /><br /><br /><br />
                 </div>
                 <p>
                   The language-markup to get the above output is

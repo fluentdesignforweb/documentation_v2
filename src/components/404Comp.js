@@ -15,7 +15,7 @@ class FourZeroFour extends Component{
   }
 
   openhome(){
-    window.open("https://fluentdesignforweb.github.io/", "_self", "replace");
+    window.open("https://fluentdesignforweb.github.io/documentation_v2/", "_self", "replace");
   }
 
   

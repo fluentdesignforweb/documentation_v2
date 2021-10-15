@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
-import "fdweb/fluent.css";
 import './App.css';
+import './components/fluent.css';
 
 import Topnav from "./components/TopnavComp";
 import Home from "./components/HomeComp";
@@ -47,7 +47,7 @@ import TextArea from "./components/controls/TextareaComp";
 import Checkbox from "./components/controls/CheckboxComp";
 import Searchbox from "./components/controls/SearchboxComp";
 import Select from "./components/controls/SelectComp";
-import AdvSelect from "./components/controls/AdvancedSelectComp";
+//import AdvSelect from "./components/controls/AdvancedSelectComp";
 import PivotMenu from "./components/controls/PivotMenuComp";
 import CommandBar from "./components/controls/CommandBarComp";
 
@@ -105,7 +105,6 @@ class App extends Component{
             <Route path="/checkbox" component={Checkbox} />
             <Route path="/searchbox" component={Searchbox} />
             <Route path="/select" component={Select} />
-            <Route path="/adv_select" component={AdvSelect} />
             <Route path="/pivot_menu" component={PivotMenu} />
             <Route path="/command_bar" component={CommandBar} />
             <Route path="/breadcrumbs" component={Breadcrumbs} />
