@@ -3,7 +3,7 @@ import './fluent.css';
 
 import StylesSidenav from "./StylesSidenavComp";
 import Styles from "./StyleComp";
-import FooterBottom from "./FooterBottomComp";
+import Footer from "./FooterComp";
 
 class StyleHome extends Component{
   
@@ -12,7 +12,7 @@ class StyleHome extends Component{
       <div>
         <StylesSidenav />
         <Styles /><br /><br />
-        <FooterBottom />
+        <Footer/>
       </div>
     );
   }

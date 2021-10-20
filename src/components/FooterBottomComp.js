@@ -1,4 +1,5 @@
-import React, {Component} from "react"
+import React, {Component} from "react";
+import {NavLink} from "react-router-dom";
 import './fluent.css';
 
 class Footer extends Component{
@@ -9,9 +10,9 @@ class Footer extends Component{
         <div class="column lg-3 md-3 sm-9">
           <p class="ta_center footerTitle">GitHub Actions</p>
           <p class="ta_center footerLink">
-            <a href="#">Submit an Issue</a>
-            <a href="#">Star on Github</a>
-            <a href="#">Fork on Github</a>
+            <NavLink to="#">Submit an Issue</NavLink>
+            <NavLink to="#">Star on Github</NavLink>
+            <NavLink to="#">Fork on Github</NavLink>
           </p>
         </div>
 

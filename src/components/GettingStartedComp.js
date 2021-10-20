@@ -60,21 +60,21 @@ class GettingStarted extends Component{
                     run the following code in your windows terminal in the project directory.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    npm install fdweb
+                            npm install fdweb
                         </pre>
                     </div><br /><br />
                     To import styles and scripts of Fluent Design for Web, add this to your components after installing Fluent Design for Web.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    import 'fdweb/fluent.js';<br/>
-    import 'fdweb/fluent.css';
+                            import 'fdweb/fluent-scripts.js';<br/>
+                            import 'fdweb/fluent-core.css';
                         </pre>
                     </div>
                     <br /><br />
                     To import icons to use in Fluent Design for Web, add this to your components after installing Fluent Design for Web.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    import 'fdweb/fluent-icons.css';
+                            import 'fdweb/fluent-icons.css';
                         </pre>
                     </div>
                 </p>
