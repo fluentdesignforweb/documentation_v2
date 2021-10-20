@@ -349,6 +349,10 @@ nav .nav_content{
 .zi3:hover{box-shadow:  6px 0 12px 0 rgba(0, 0, 0, 0.4), 0 4px 12px 0 rgba(0, 0, 0, 0.38); transition: 250ms;}
 .zi4:hover{box-shadow:  12px 0 24px 0 rgba(0, 0, 0, 0.4), 0 6px 18px 0 rgba(0, 0, 0, 0.38); transition: 250ms;}
 
+.zi0, .zi1, .zi2, .zi3, .zi4 {
+    border-radius: 0.3rem;
+}
+
 /*Colors*/
 .transparent{background: transparent; color:#232323;}
 .primary_blue{background: #0065AF; color:#FFF;}
@@ -1123,12 +1127,12 @@ li{font-size: 14px;}
 .codeblock_text{
     margin-top: 0px;
     padding: 20px;
-    background: #e1519133;
-    color: #0e0e0e;
+    background: #0e6e8e;
+    color: #fcfcfc;
     font-family: 'Source Sans Pro', 'Consolas', 'Roboto';
     text-align: left;
     overflow-x: scroll;
-    border-radius: 10px;
+    border-radius: 0.4rem;
     font-weight: 600;
 }
 
