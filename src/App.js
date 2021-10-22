@@ -51,15 +51,18 @@ import Select from "./components/controls/SelectComp";
 import PivotMenu from "./components/controls/PivotMenuComp";
 import CommandBar from "./components/controls/CommandBarComp";
 
+
 import FourZeroFour from "./components/404Comp";
 import Breadcrumbs from "./components/controls/BreadcrumbsComp";
 import SideNav from "./components/controls/SideNavComp";
+import WhatsNew from "./components/WhatsNewComp";
+import DarkMode from "./components/DarkModeComp";
 
 class App extends Component{
   
   render(){
     return(
-        <Router>
+        <Router basename="/documentation_v2">
           <Topnav />
           <Switch>
             <Route exact path="/" component={Home} />
@@ -109,6 +112,8 @@ class App extends Component{
             <Route path="/command_bar" component={CommandBar} />
             <Route path="/breadcrumbs" component={Breadcrumbs} />
             <Route path="/sidenav" component={SideNav} />
+            <Route path="/newinv2" component={WhatsNew} />
+            <Route path="/darkmode" component={DarkMode} />
 
             <Route component={FourZeroFour} />
 

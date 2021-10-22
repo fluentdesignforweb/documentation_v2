@@ -36,9 +36,9 @@ class CommandBar extends Component{
                     <div className="dropdown_container">
                       <button class="dropdown_btn commandbar_button">Command_1</button>
                       <ul className="dropdown_items dlevel2">  
-                        <NavLink href="#">Item 1</NavLink>  
-                        <NavLink href="#">Item 2</NavLink>  
-                        <NavLink href="#">Item 3</NavLink>  
+                        <NavLink to="#">Item 1</NavLink>  
+                        <NavLink to="#">Item 2</NavLink>  
+                        <NavLink to="#">Item 3</NavLink>  
                       </ul> 
                     </div>
                     <button class="commandbar_button">Command_2</button>

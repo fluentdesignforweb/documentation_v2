@@ -1,13 +1,12 @@
 {
-  "name": "documentation",
-  "version": "0.1.0",
+  "name": "documentation_v2",
+  "version": "2.0.1",
   "private": true,
-  "homepage": "https://shivendrasaurav.github.io/documentation/",
+  "homepage": "https://fluentdesignforweb.github.io/documentation_v2/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.3.0",
-    "fdweb": "^1.0.8",
     "gh-pages": "^3.2.3",
     "npm-check-updates": "^11.8.5",
     "react": "^17.0.2",

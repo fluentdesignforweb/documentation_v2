@@ -32,11 +32,11 @@ class PivotMenu extends Component{
                 </p>
                 <div className="outline">
                   <div className="pivot_container primary_red">
-                    <NavLink className="pivot_heading">Menu Title</NavLink>
-                    <NavLink className="pivot_button right" href="#">Link 4</NavLink>
-                    <NavLink className="pivot_button right active" href="#">Link 3</NavLink>
-                    <NavLink className="pivot_button right" href="#">Link 2</NavLink>
-                    <NavLink className="pivot_button right" href="#">Link 1</NavLink>
+                    <NavLink className="pivot_heading" to="#">Menu Title</NavLink>
+                    <NavLink className="pivot_button right" to="#">Link 4</NavLink>
+                    <NavLink className="pivot_button right active" to="#">Link 3</NavLink>
+                    <NavLink className="pivot_button right" to="#">Link 2</NavLink>
+                    <NavLink className="pivot_button right" to="#">Link 1</NavLink>
                   </div>
                 </div>
                 <p>

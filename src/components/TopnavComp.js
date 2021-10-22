@@ -18,7 +18,7 @@ class Topnav extends Component{
   render(){
     return(
       <div>
-        <div className="pivot_container primary_blue top">
+        <div className="pivot_container primary_blue top large0 medium0">
             <a href="https://fluentdesignforweb.github.io" className="pivot_heading primary_blue">Fluent Design</a>
             <NavLink to="/getstarted" className="pivot_button small0">Get Started</NavLink>
             <NavLink to="/boilerplate" className="pivot_button small0">Boilerplate</NavLink>
@@ -32,6 +32,7 @@ class Topnav extends Component{
           <div className="sidepanel_content right">
             <button className="mod_close_btn" onClick={HideNav}>X</button>
             <br /><br /><br /><br />
+            <NavLink to="/getstarted" onClick={HideNav}><div className="panel_item">Get Started</div></NavLink>
             <NavLink to="/boilerplate" onClick={HideNav}><div className="panel_item">Boilerplate</div></NavLink>
             <NavLink to="/styles" onClick={HideNav}><div className="panel_item">Styles</div></NavLink>
             <NavLink to="/controls" onClick={HideNav}><div className="panel_item">Controls</div></NavLink>

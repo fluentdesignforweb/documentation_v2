@@ -26,26 +26,55 @@ class GettingStarted extends Component{
             </div>
             <br /><br />
             <div className="page_container primary_white dlevel2">
-                <p className="title bold">Add Fluent Design in your Project</p>
+                <p className="title bold">Add Fluent Design in your Web Project</p>
                 <p>
                     Fluent Design for Web is easy to use, and even easier to include it in your project and use it. To use Fluent Design for Web in your project 
-                    you just need to include this piece of code in HEAD tag of the HTML files.<br /><br />
+                    you just need to include this piece of code in HEAD tag of the HTML files.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    &lt;link href="https://fluentdesignforweb.github.io/fluent.min.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="https://fluentdesignforweb.github.io/v2/fluent-core.css" rel="stylesheet" type="text/css" /&gt;
                         </pre>
                     </div>
-                    Or, <br /><br />
+                    <br /><br/>
+                    Also include fluent.js file for frosting effects, modals, sidepanels and overlays.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    &lt;link href="https://fluentdesignforweb.github.io/fluent.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="https://fluentdesignforweb.github.io/v2/fluent-scripts.js" rel="stylesheet" type="text/css" /&gt;
                         </pre>
                     </div>
-                    Use Minified CSS file to get higher performance, also you can include fluent.js file if you want to use frosting effects, modals, sidepanels and overlays.
                     <br /><br />
+                    To import icons to use in Fluent Design for Web, add this to your components after installing Fluent Design for Web.
                     <div className="code_content enabled">
                         <pre className="codeblock_text">
-    &lt;link href="https://fluentdesignforweb.github.io/fluent.js" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="https://fluentdesignforweb.github.io/v2/fluent-icons.css" rel="stylesheet" type="text/css" /&gt;
+                        </pre>
+                    </div>
+
+                </p>
+            </div>
+            <br /><br />
+            <div className="page_container primary_white dlevel2">
+                <p className="title bold">Add Fluent Design in your React Project</p>
+                <p>
+                    Fluent Design for Web is easy to use, and even easier to include it in your react project and use it. To install Fluent Design for Web in your project, 
+                    run the following code in your windows terminal in the project directory.
+                    <div className="code_content enabled">
+                        <pre className="codeblock_text">
+                            npm install fdweb
+                        </pre>
+                    </div><br /><br />
+                    To import styles and scripts of Fluent Design for Web, add this to your components after installing Fluent Design for Web.
+                    <div className="code_content enabled">
+                        <pre className="codeblock_text">
+                            import 'fdweb/fluent-scripts.js';<br/>
+                            import 'fdweb/fluent-core.css';
+                        </pre>
+                    </div>
+                    <br /><br />
+                    To import icons to use in Fluent Design for Web, add this to your components after installing Fluent Design for Web.
+                    <div className="code_content enabled">
+                        <pre className="codeblock_text">
+                            import 'fdweb/fluent-icons.css';
                         </pre>
                     </div>
                 </p>
